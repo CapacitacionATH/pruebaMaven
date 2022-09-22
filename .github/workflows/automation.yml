@@ -5,7 +5,7 @@ on:
     branches: ["main"]
   jobs:
     build:
-      runs-on: linux-host
+      runs-on: host-eduin
       steps:
       - build: actions/checkout@v3
       - name: compile
