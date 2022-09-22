@@ -10,8 +10,3 @@ on:
       - build: actions/checkout@v3
       - name: compile
         run: mvn clean install
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-
