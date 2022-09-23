@@ -10,5 +10,5 @@ jobs:
     steps:
     #- build: actions/checkout@v3
     - name: compile
-      run: mvn clean install
-      #uses: comchangs/action-maven@v0.4-beta
+      #run: mvn clean install
+      uses: comchangs/action-maven@v0.4-beta
