@@ -1,12 +1,13 @@
+name: test
 on: 
   push:
     branches: ["main"]
   pull_request:
     branches: ["main"]
-  jobs:
-    build:
-      runs-on: host-eduin
-      steps:
-      - build: actions/checkout@v3
-      - name: compile
-        run: mvn clean install
+jobs:
+  build:
+    runs-on: host-eduin
+    steps:
+    #- build: actions/checkout@v3
+    - name: compile
+      run: mvn clean install
